@@ -1,0 +1,292 @@
+{
+  "meta": {
+    "title": "Baby Time — bolangiz uchun eng yaqin bog'cha, bir necha soniyada",
+    "description": "Xaritadan tekshirilgan bog'chani tanlang, sana va vaqtni belgilang va bolangizga joy band qiling. Qo'ng'iroqsiz, qog'ozbozliksiz. iOS va Android uchun.",
+    "ogAlt": "Baby Time ilovasi — xaritadan bog'cha tanlash va vaqt band qilish"
+  },
+  "nav": {
+    "features": "Imkoniyatlar",
+    "how": "Qanday ishlaydi",
+    "partners": "Bog'chalar uchun",
+    "faq": "Savollar",
+    "download": "Ilovani yuklab olish",
+    "openMenu": "Menyuni ochish",
+    "closeMenu": "Menyuni yopish",
+    "skipToContent": "Asosiy kontentga o'tish"
+  },
+  "hero": {
+    "eyebrow": "Endi O'zbekistonda · iOS va Android",
+    "title": "Bolangiz uchun eng yaqin bog'cha —",
+    "titleAccent": "bir necha soniyada",
+    "subtitle": "Xaritadan tekshirilgan bog'chani tanlang, kerakli sana va vaqtni belgilang — joy bir daqiqada band qilinadi.",
+    "cardBooking": "Bugun 09:00 – 13:00",
+    "cardBookingStatus": "Tasdiqlandi",
+    "cardNearby": "Sizdan 800 m",
+    "stats": [
+      { "value": 4.9, "decimals": 1, "prefix": "", "suffix": "", "label": "ilova reytingi" },
+      { "value": 200, "decimals": 0, "prefix": "", "suffix": "+", "label": "tekshirilgan bog'cha" },
+      { "value": 10000, "decimals": 0, "prefix": "", "suffix": "+", "label": "muvaffaqiyatli band qilish" }
+    ]
+  },
+  "trust": {
+    "title": "O'zbekiston bo'ylab bog'chalar bizga ishonadi"
+  },
+  "features": {
+    "eyebrow": "Nima uchun Baby Time",
+    "title": "Bolangiz uchun joy topish shunchalik oson bo'lmagan edi",
+    "subtitle": "To'rtta oddiy narsa — va kuningiz yengillashadi.",
+    "items": [
+      {
+        "title": "Xaritadan toping",
+        "body": "Yoningizdagi barcha tekshirilgan bog'chalar bitta xaritada. Masofa va bo'sh joylar real vaqtda ko'rinadi."
+      },
+      {
+        "title": "Sana va vaqtni tanlang",
+        "body": "Oylik obuna emas. Faqat kerakli soatlarni band qiling — bugunga ham, kelasi haftaga ham."
+      },
+      {
+        "title": "Tekshirilgan va xavfsiz",
+        "body": "Litsenziyalangan markazlar, tarbiyachilar hujjatlari, haqiqiy suratlar va ota-onalar sharhlari."
+      },
+      {
+        "title": "Darhol tasdiqlash",
+        "body": "Qo'ng'iroq ham, qog'ozbozlik ham yo'q. Band qilish ilovada bir zumda tasdiqlanadi."
+      }
+    ]
+  },
+  "how": {
+    "eyebrow": "Qanday ishlaydi",
+    "title": "Uch qadam. Bir daqiqa.",
+    "subtitle": "Ilovani oching va bolangiz uchun joyni o'zingiz tanlang.",
+    "steps": [
+      {
+        "title": "Bog'chani tanlang",
+        "body": "Xaritani oching, yoningizdagi bog'chalarni ko'ring, reyting va sharhlarni o'qing."
+      },
+      {
+        "title": "Sana va vaqtni belgilang",
+        "body": "Kalendardan kunni, so'ngra bo'sh vaqt oralig'ini tanlang. Narx darhol ko'rinadi."
+      },
+      {
+        "title": "Bolangizni olib boring",
+        "body": "Tasdiqni oling va belgilangan vaqtda bolangizni bog'chaga olib boring."
+      }
+    ]
+  },
+  "showcase": {
+    "eyebrow": "Ilova ichida",
+    "title": "Hammasi telefoningizda",
+    "panels": [
+      {
+        "title": "Yaqin atrofdagi barcha bog'chalar",
+        "body": "Xarita sizga eng yaqin va bo'sh joyi bor bog'chalarni birinchi ko'rsatadi."
+      },
+      {
+        "title": "Har bir bog'cha haqida to'liq ma'lumot",
+        "body": "Suratlar, litsenziya, tarbiyachilar, narxlar va ota-onalarning haqiqiy sharhlari."
+      },
+      {
+        "title": "Vaqtni o'zingiz tanlaysiz",
+        "body": "Bir necha soatmi yoki butun kunmi — faqat kerakli vaqt uchun to'laysiz."
+      },
+      {
+        "title": "Tasdiq telefoningizda",
+        "body": "Band qilish tasdiqlangach, barcha ma'lumot va yo'nalish ilovada saqlanadi."
+      }
+    ]
+  },
+  "map": {
+    "eyebrow": "Qamrov",
+    "title": "Bog'chalar allaqachon yoningizda",
+    "body": "Toshkentning har bir tumanida tekshirilgan bog'chalar bor. Xaritani suring va o'zingizga eng yaqinini ko'ring.",
+    "hint": "Bog'cha belgisini bosib ko'ring",
+    "note": "Xarita namuna uchun. To'liq ro'yxat va bo'sh joylar ilovada real vaqtda ko'rinadi.",
+    "points": [
+      {
+        "title": "12 ta tuman",
+        "body": "Toshkent bo'ylab qamrov, hudud doimiy kengaymoqda."
+      },
+      {
+        "title": "O'rtacha 1.2 km",
+        "body": "Ota-onadan eng yaqin bog'chagacha bo'lgan masofa."
+      },
+      {
+        "title": "Har kuni yangilanadi",
+        "body": "Bo'sh joylar va ish vaqtlari ilovada real vaqtda."
+      }
+    ]
+  },
+  "safety": {
+    "eyebrow": "Xavfsizlik",
+    "title": "Bolangiz xavfsizligi — bizning birinchi qoidamiz",
+    "body": "Baby Time'dagi har bir bog'cha ro'yxatga qo'shilishdan oldin tekshiruvdan o'tadi. Bu muzokara qilinmaydigan shart.",
+    "badge": "Tasdiqlangan",
+    "points": [
+      {
+        "title": "Litsenziyalangan bog'chalar",
+        "body": "Faqat rasmiy ruxsatnomaga ega markazlar ilovaga qo'shiladi."
+      },
+      {
+        "title": "Tekshirilgan tarbiyachilar",
+        "body": "Xodimlarning malakasi va hujjatlari jamoamiz tomonidan ko'rib chiqiladi."
+      },
+      {
+        "title": "Ota-onalarning haqiqiy sharhlari",
+        "body": "Sharh qoldirish faqat haqiqatan band qilgan ota-onalar uchun ochiq."
+      },
+      {
+        "title": "Xavfsiz to'lov",
+        "body": "To'lov ilova ichida himoyalangan kanal orqali amalga oshiriladi."
+      }
+    ]
+  },
+  "testimonials": {
+    "eyebrow": "Ota-onalar nima deydi",
+    "title": "Kunini yengillashtirganlar",
+    "note": "TODO: haqiqiy sharhlar bilan almashtiring",
+    "items": [
+      {
+        "quote": "Ishim ko'p kunlarda qutqaruvchi bo'ldi. Yarim soatda yaqin bog'chani topib, ertalabki vaqtga band qildim.",
+        "name": "Nilufar",
+        "city": "Toshkent",
+        "initial": "N"
+      },
+      {
+        "quote": "Eng yoqqani — bog'cha haqidagi to'liq ma'lumot. Litsenziyasini va sharhlarni ko'rib, xotirjam bordim.",
+        "name": "Sardor",
+        "city": "Samarqand",
+        "initial": "S"
+      },
+      {
+        "quote": "Oylik to'lov shart emasligi juda qulay. Faqat kerak bo'lgan kunlarga band qilaman.",
+        "name": "Malika",
+        "city": "Namangan",
+        "initial": "M"
+      }
+    ]
+  },
+  "partners": {
+    "eyebrow": "Hamkorlik",
+    "title": "Bog'cha egasimisiz? Baby Time'ga qo'shiling.",
+    "body": "Bo'sh joylaringizni to'ldiring va har kuni yangi ota-onalarga ko'rining.",
+    "cta": "Hamkor sifatida ariza qoldirish",
+    "points": [
+      {
+        "title": "Yangi ota-onalar oqimi",
+        "body": "Ilovadagi minglab foydalanuvchilar sizni xaritadan topadi."
+      },
+      {
+        "title": "Bo'sh joylarni to'ldiring",
+        "body": "Kun davomidagi bo'sh soatlar daromadga aylanadi."
+      },
+      {
+        "title": "Boshlash bepul",
+        "body": "Ro'yxatdan o'tish va profil yaratish uchun to'lov olinmaydi."
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Savollar",
+    "title": "Ko'p so'raladigan savollar",
+    "items": [
+      {
+        "q": "Baby Time qanday ishlaydi?",
+        "a": "Ilovani oching, xaritadan yoningizdagi bog'chani tanlang, sana va vaqt oralig'ini belgilang va band qiling. Tasdiq bir zumda ilovaga keladi."
+      },
+      {
+        "q": "Xizmat narxi qancha?",
+        "a": "TODO: haqiqiy narxlarni kiriting. Narx har bir bog'cha tomonidan belgilanadi va band qilishdan oldin ilovada to'liq ko'rsatiladi — yashirin to'lovlar yo'q."
+      },
+      {
+        "q": "Bolamni necha soatga qoldirishim mumkin?",
+        "a": "Bir necha soatdan butun kungacha. Har bir bog'cha o'zining ish vaqti va bo'sh oraliqlarini ilovada ko'rsatadi."
+      },
+      {
+        "q": "Bog'chalar qanday tekshiriladi?",
+        "a": "Har bir markaz litsenziyasi, xodimlari hujjatlari va binosi bo'yicha jamoamiz tomonidan ko'rib chiqiladi. Tekshiruvdan o'tmagan bog'cha ilovaga qo'shilmaydi."
+      },
+      {
+        "q": "Band qilishni bekor qila olamanmi?",
+        "a": "Ha. Bekor qilish shartlari har bir bog'cha uchun band qilish sahifasida ko'rsatiladi."
+      },
+      {
+        "q": "Qaysi yoshdagi bolalar qabul qilinadi?",
+        "a": "TODO: yosh chegarasini aniqlashtiring. Odatda 2 yoshdan 7 yoshgacha, ammo har bir bog'cha o'z shartlarini belgilaydi."
+      },
+      {
+        "q": "To'lov qanday amalga oshiriladi?",
+        "a": "To'lov ilova ichida amalga oshiriladi. TODO: qo'llab-quvvatlanadigan to'lov usullarini sanab o'ting."
+      },
+      {
+        "q": "Ilova qaysi shaharlarda ishlaydi?",
+        "a": "TODO: qamrov hududlarini kiriting. Hozircha Toshkent va yirik viloyat markazlarida ishlaymiz, hudud doimiy kengaymoqda."
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "Bugun kuningizni yengillashtiring",
+    "body": "Baby Time'ni yuklab oling va bolangiz uchun eng yaqin bog'chani bir daqiqada toping.",
+    "qr": "Yuklab olish uchun skanerlang"
+  },
+  "footer": {
+    "blurb": "Ota-onalar uchun moslashuvchan bolalar bog'chasi. Xaritadan tanlang, vaqtni belgilang, band qiling.",
+    "colApp": "Ilova",
+    "colCompany": "Kompaniya",
+    "colLegal": "Yuridik",
+    "links": {
+      "features": "Imkoniyatlar",
+      "how": "Qanday ishlaydi",
+      "faq": "Savollar",
+      "partners": "Bog'chalar uchun",
+      "contact": "Aloqa",
+      "privacy": "Maxfiylik siyosati",
+      "terms": "Foydalanish shartlari",
+      "offer": "Ommaviy oferta"
+    },
+    "rights": "Barcha huquqlar himoyalangan.",
+    "langLabel": "Til"
+  },
+  "pages": {
+    "back": "Bosh sahifaga qaytish",
+    "updated": "Oxirgi yangilanish",
+    "legalNotice": "Bu sahifadagi matn hali yuridik jihatdan tasdiqlanmagan. Ishga tushirishdan oldin yuristingiz tayyorlagan yakuniy matn bilan almashtirilishi shart.",
+    "contact": {
+      "title": "Biz bilan bog'lanish",
+      "body": "Savolingiz bormi yoki bog'changizni Baby Time'ga qo'shmoqchimisiz? Yozing — javob beramiz.",
+      "emailLabel": "Elektron pochta",
+      "phoneLabel": "Telefon",
+      "socialLabel": "Ijtimoiy tarmoqlar",
+      "partnerTitle": "Bog'cha egalari uchun",
+      "partnerBody": "Hamkorlik shartlari va ro'yxatga qo'shilish jarayoni haqida to'liq ma'lumot yuboramiz."
+    }
+  },
+  "app": {
+    "search": "Yaqin atrofdagi bog'chalar",
+    "nearby": "Yaqin atrofda",
+    "available": "Bo'sh joy bor",
+    "verified": "Tasdiqlangan",
+    "reviews": "sharh",
+    "perHour": "soatiga",
+    "sum": "so'm",
+    "gardenA": "Quyoshli Bola",
+    "gardenB": "Kichkintoy",
+    "gardenC": "Bolajon",
+    "pickDate": "Sanani tanlang",
+    "pickTime": "Vaqtni tanlang",
+    "days": ["Du", "Se", "Ch", "Pa", "Ju", "Sh", "Ya"],
+    "total": "Jami",
+    "book": "Band qilish",
+    "confirmed": "Band qilindi!",
+    "confirmedBody": "Bolangizni belgilangan vaqtda olib boring.",
+    "route": "Yo'nalishni ochish",
+    "about": "Bog'cha haqida",
+    "staff": "Tarbiyachilar",
+    "photos": "Suratlar"
+  },
+  "store": {
+    "appStoreSmall": "Yuklab olish",
+    "appStoreBig": "App Store",
+    "playSmall": "Yuklab olish",
+    "playBig": "Google Play"
+  }
+}

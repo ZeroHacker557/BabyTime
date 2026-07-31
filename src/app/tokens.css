@@ -1,0 +1,52 @@
+/**
+ * Baby Time — design tokens.
+ * This file is the single source of truth for the brand's visual system.
+ * It is intentionally framework-free: drop it into any other product (the app's
+ * web views, a partner dashboard, an email template) and the brand comes with it.
+ *
+ * TODO: --brand-500 is sampled from the supplied logo. If you re-export the logo,
+ * re-sample it here and every surface on the site updates.
+ */
+
+:root {
+  /* --- Brand green ------------------------------------------------------ */
+  --brand-50: #f4fcee;
+  --brand-100: #e8f8dc;
+  --brand-200: #cdefb0;
+  --brand-400: #7ad63f;
+  --brand-500: #5cc421;
+  --brand-600: #4aa518;
+  --brand-700: #3a8213;
+  --brand-900: #1e4a0c;
+
+  /* --- Ink (near-black with a faint green cast, so it sits with the brand) */
+  --ink-900: #0e1210;
+  --ink-700: #2c332e;
+  --ink-600: #4a524d;
+  --ink-400: #8a928c;
+  --ink-200: #dfe4e0;
+
+  /* --- Surfaces --------------------------------------------------------- */
+  --surface: #ffffff;
+  --canvas: #f7f9f7;
+
+  /* --- Accent (used at most 3 times on the whole page) ------------------- */
+  --warm-accent: #ffb43d;
+  --warm-accent-soft: #fff3dd;
+
+  /* --- Radii: everything echoes the circular logo mark ------------------- */
+  --radius-card: 24px;
+  --radius-media: 28px;
+  --radius-chip: 999px;
+
+  /* --- Shadows: tinted with the brand green, never neutral grey ---------- */
+  --shadow-soft: 0 8px 24px -12px rgba(46, 90, 20, 0.16);
+  --shadow-lift: 0 20px 48px -16px rgba(46, 90, 20, 0.18);
+  --shadow-deep: 0 32px 72px -24px rgba(46, 90, 20, 0.26);
+  --shadow-phone: 0 48px 96px -32px rgba(14, 18, 16, 0.32);
+
+  /* --- Motion ----------------------------------------------------------- */
+  --ease-smooth: cubic-bezier(0.16, 1, 0.3, 1);
+  --duration-reveal: 600ms;
+  --duration-hover: 200ms;
+}

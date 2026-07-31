@@ -1,0 +1,292 @@
+{
+  "meta": {
+    "title": "Baby Time — the nearest kindergarten for your child, in seconds",
+    "description": "Pick a verified kindergarten on the map, choose a date and time, and book a place for your child. No calls, no paperwork. For iOS and Android.",
+    "ogAlt": "The Baby Time app — choosing a kindergarten on the map and booking a time slot"
+  },
+  "nav": {
+    "features": "Features",
+    "how": "How it works",
+    "partners": "For kindergartens",
+    "faq": "FAQ",
+    "download": "Get the app",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "skipToContent": "Skip to main content"
+  },
+  "hero": {
+    "eyebrow": "Now in Uzbekistan · iOS and Android",
+    "title": "The nearest kindergarten for your child —",
+    "titleAccent": "in seconds",
+    "subtitle": "Pick a verified kindergarten on the map, choose the date and time you need — the place is booked in under a minute.",
+    "cardBooking": "Today 09:00 – 13:00",
+    "cardBookingStatus": "Confirmed",
+    "cardNearby": "800 m from you",
+    "stats": [
+      { "value": 4.9, "decimals": 1, "prefix": "", "suffix": "", "label": "app rating" },
+      { "value": 200, "decimals": 0, "prefix": "", "suffix": "+", "label": "verified kindergartens" },
+      { "value": 10000, "decimals": 0, "prefix": "", "suffix": "+", "label": "successful bookings" }
+    ]
+  },
+  "trust": {
+    "title": "Trusted by kindergartens across Uzbekistan"
+  },
+  "features": {
+    "eyebrow": "Why Baby Time",
+    "title": "Finding a place for your child has never been this simple",
+    "subtitle": "Four simple things — and your day gets lighter.",
+    "items": [
+      {
+        "title": "Find it on the map",
+        "body": "Every verified kindergarten near you on one map. Real distance and open slots, live."
+      },
+      {
+        "title": "Choose date and time",
+        "body": "No monthly subscription. Book exactly the hours you need — today or next week."
+      },
+      {
+        "title": "Verified and safe",
+        "body": "Licensed centres, staff credentials, real photos and parent reviews."
+      },
+      {
+        "title": "Instant confirmation",
+        "body": "No phone calls, no paperwork. Your booking is confirmed in the app straight away."
+      }
+    ]
+  },
+  "how": {
+    "eyebrow": "How it works",
+    "title": "Three steps. One minute.",
+    "subtitle": "Open the app and choose the place for your child yourself.",
+    "steps": [
+      {
+        "title": "Choose a kindergarten",
+        "body": "Open the map, see the kindergartens near you, read ratings and reviews."
+      },
+      {
+        "title": "Set the date and time",
+        "body": "Pick a day in the calendar, then a free time slot. The price shows immediately."
+      },
+      {
+        "title": "Drop your child off",
+        "body": "Get your confirmation and bring your child at the time you booked."
+      }
+    ]
+  },
+  "showcase": {
+    "eyebrow": "Inside the app",
+    "title": "Everything on your phone",
+    "panels": [
+      {
+        "title": "Every kindergarten nearby",
+        "body": "The map surfaces the closest kindergartens with open places first."
+      },
+      {
+        "title": "Full detail on every centre",
+        "body": "Photos, licence, staff, prices and genuine reviews from other parents."
+      },
+      {
+        "title": "You choose the hours",
+        "body": "A few hours or a full day — you only pay for the time you actually need."
+      },
+      {
+        "title": "Confirmation on your phone",
+        "body": "Once booked, every detail and the route are saved in the app."
+      }
+    ]
+  },
+  "map": {
+    "eyebrow": "Coverage",
+    "title": "There is already one near you",
+    "body": "Vetted kindergartens in every district of Tashkent. Drag the map and find the one closest to you.",
+    "hint": "Tap a kindergarten pin",
+    "note": "Map shown for illustration. The full list and live availability are in the app.",
+    "points": [
+      {
+        "title": "12 districts",
+        "body": "Coverage across Tashkent, and the map keeps growing."
+      },
+      {
+        "title": "1.2 km on average",
+        "body": "From a parent to their nearest kindergarten."
+      },
+      {
+        "title": "Updated daily",
+        "body": "Open slots and opening hours, live in the app."
+      }
+    ]
+  },
+  "safety": {
+    "eyebrow": "Safety",
+    "title": "Your child's safety is our first rule",
+    "body": "Every kindergarten on Baby Time is vetted before it is listed. That condition is not negotiable.",
+    "badge": "Verified",
+    "points": [
+      {
+        "title": "Licensed kindergartens",
+        "body": "Only centres holding an official permit are listed in the app."
+      },
+      {
+        "title": "Vetted staff",
+        "body": "Our team reviews the qualifications and documents of every caregiver."
+      },
+      {
+        "title": "Genuine parent reviews",
+        "body": "Only parents who actually booked a place can leave a review."
+      },
+      {
+        "title": "Secure payment",
+        "body": "Payment runs inside the app over a protected channel."
+      }
+    ]
+  },
+  "testimonials": {
+    "eyebrow": "What parents say",
+    "title": "People whose day got lighter",
+    "note": "TODO: replace with real reviews",
+    "items": [
+      {
+        "quote": "On busy days this is a lifesaver. In half an hour I found a kindergarten nearby and booked the morning.",
+        "name": "Nilufar",
+        "city": "Tashkent",
+        "initial": "N"
+      },
+      {
+        "quote": "What I liked most was the detail on each centre. I checked the licence and the reviews, then went with a clear head.",
+        "name": "Sardor",
+        "city": "Samarkand",
+        "initial": "S"
+      },
+      {
+        "quote": "Not needing a monthly plan is a huge relief. I only book the days I actually need.",
+        "name": "Malika",
+        "city": "Namangan",
+        "initial": "M"
+      }
+    ]
+  },
+  "partners": {
+    "eyebrow": "Partners",
+    "title": "Run a kindergarten? Join Baby Time.",
+    "body": "Fill your open places and stay visible to new parents every single day.",
+    "cta": "Apply as a partner",
+    "points": [
+      {
+        "title": "A stream of new parents",
+        "body": "Thousands of app users will find you on the map."
+      },
+      {
+        "title": "Fill your empty slots",
+        "body": "Quiet hours during the day turn into revenue."
+      },
+      {
+        "title": "Free to start",
+        "body": "Signing up and creating your profile costs nothing."
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Frequently asked questions",
+    "items": [
+      {
+        "q": "How does Baby Time work?",
+        "a": "Open the app, pick a kindergarten near you on the map, set the date and time slot, and book. Confirmation arrives instantly."
+      },
+      {
+        "q": "How much does it cost?",
+        "a": "TODO: add real pricing. Each kindergarten sets its own price, and it is shown in full in the app before you book — no hidden fees."
+      },
+      {
+        "q": "How long can I leave my child?",
+        "a": "From a couple of hours to a full day. Each kindergarten publishes its opening hours and free slots in the app."
+      },
+      {
+        "q": "How are kindergartens vetted?",
+        "a": "Our team reviews each centre's licence, staff documents and premises. A centre that fails the check is not listed."
+      },
+      {
+        "q": "Can I cancel a booking?",
+        "a": "Yes. Cancellation terms are shown on each kindergarten's booking page."
+      },
+      {
+        "q": "What ages are accepted?",
+        "a": "TODO: confirm the age range. Typically 2 to 7 years, but each kindergarten sets its own terms."
+      },
+      {
+        "q": "How does payment work?",
+        "a": "Payment happens inside the app. TODO: list the supported payment methods."
+      },
+      {
+        "q": "Which cities is the app available in?",
+        "a": "TODO: add coverage areas. We currently operate in Tashkent and major regional centres, and coverage keeps expanding."
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "Make your day lighter, starting today",
+    "body": "Download Baby Time and find the nearest kindergarten for your child in under a minute.",
+    "qr": "Scan to download"
+  },
+  "footer": {
+    "blurb": "Flexible childcare for parents. Pick it on the map, choose your hours, book it.",
+    "colApp": "App",
+    "colCompany": "Company",
+    "colLegal": "Legal",
+    "links": {
+      "features": "Features",
+      "how": "How it works",
+      "faq": "FAQ",
+      "partners": "For kindergartens",
+      "contact": "Contact",
+      "privacy": "Privacy policy",
+      "terms": "Terms of use",
+      "offer": "Public offer"
+    },
+    "rights": "All rights reserved.",
+    "langLabel": "Language"
+  },
+  "pages": {
+    "back": "Back to home",
+    "updated": "Last updated",
+    "legalNotice": "The text on this page has not been legally reviewed yet. It must be replaced with the final version from your lawyer before launch.",
+    "contact": {
+      "title": "Get in touch",
+      "body": "Have a question, or want to list your kindergarten on Baby Time? Write to us — we answer.",
+      "emailLabel": "Email",
+      "phoneLabel": "Phone",
+      "socialLabel": "Social",
+      "partnerTitle": "For kindergarten owners",
+      "partnerBody": "We will send you the full partnership terms and how the listing process works."
+    }
+  },
+  "app": {
+    "search": "Kindergartens nearby",
+    "nearby": "Near you",
+    "available": "Places open",
+    "verified": "Verified",
+    "reviews": "reviews",
+    "perHour": "per hour",
+    "sum": "UZS",
+    "gardenA": "Quyoshli Bola",
+    "gardenB": "Kichkintoy",
+    "gardenC": "Bolajon",
+    "pickDate": "Choose a date",
+    "pickTime": "Choose a time",
+    "days": ["Mo", "Tu", "We", "Th", "Fr", "Sa", "Su"],
+    "total": "Total",
+    "book": "Book now",
+    "confirmed": "Booked!",
+    "confirmedBody": "Bring your child at the time you chose.",
+    "route": "Open route",
+    "about": "About",
+    "staff": "Caregivers",
+    "photos": "Photos"
+  },
+  "store": {
+    "appStoreSmall": "Download on the",
+    "appStoreBig": "App Store",
+    "playSmall": "GET IT ON",
+    "playBig": "Google Play"
+  }
+}
