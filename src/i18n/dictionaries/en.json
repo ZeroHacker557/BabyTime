@@ -75,23 +75,35 @@
   },
   "showcase": {
     "eyebrow": "Inside the app",
-    "title": "Everything on your phone",
+    "title": "From sign-up to payment — seven steps",
     "panels": [
       {
-        "title": "Every kindergarten nearby",
-        "body": "The map surfaces the closest kindergartens with open places first."
+        "title": "Sign up",
+        "body": "With your phone number or Google, in about a minute. You pick the role — parent or staff."
       },
       {
-        "title": "Full detail on every centre",
-        "body": "Photos, licence, staff, prices and genuine reviews from other parents."
+        "title": "Set your location",
+        "body": "Choose your region or drop yourself on the map — the app lists the closest kindergartens."
       },
       {
-        "title": "You choose the hours",
-        "body": "A few hours or a full day — you only pay for the time you actually need."
+        "title": "Add your child",
+        "body": "Name, age, gender and allergies. Entered once, then filled in automatically every time."
       },
       {
-        "title": "Confirmation on your phone",
-        "body": "Once booked, every detail and the route are saved in the app."
+        "title": "Pick the date and time",
+        "body": "The day first, then the length — anywhere from 1 to 12 hours. Free slots show immediately."
+      },
+      {
+        "title": "Check the details",
+        "body": "Kindergarten, child, date, length and price on one screen. Both the hourly rate and the total."
+      },
+      {
+        "title": "Pay",
+        "body": "Payme, Click or a bank card. Top the balance up in advance and the next booking is one tap."
+      },
+      {
+        "title": "It all lives in your profile",
+        "body": "Booking history, your children, balance and cashback — kept together in one place."
       }
     ]
   },

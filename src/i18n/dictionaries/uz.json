@@ -75,23 +75,35 @@
   },
   "showcase": {
     "eyebrow": "Ilova ichida",
-    "title": "Hammasi telefoningizda",
+    "title": "Ro'yxatdan o'tishdan to'lovgacha — yetti qadam",
     "panels": [
       {
-        "title": "Yaqin atrofdagi barcha bog'chalar",
-        "body": "Xarita sizga eng yaqin va bo'sh joyi bor bog'chalarni birinchi ko'rsatadi."
+        "title": "Ro'yxatdan o'ting",
+        "body": "Telefon raqamingiz yoki Google orqali bir daqiqada. Ota-ona yoki xodim — rolni o'zingiz tanlaysiz."
       },
       {
-        "title": "Har bir bog'cha haqida to'liq ma'lumot",
-        "body": "Suratlar, litsenziya, tarbiyachilar, narxlar va ota-onalarning haqiqiy sharhlari."
+        "title": "Joylashuvni belgilang",
+        "body": "Viloyatingizni tanlang yoki xaritadan joyingizni ko'rsating — ilova eng yaqin bog'chalarni chiqaradi."
       },
       {
-        "title": "Vaqtni o'zingiz tanlaysiz",
-        "body": "Bir necha soatmi yoki butun kunmi — faqat kerakli vaqt uchun to'laysiz."
+        "title": "Farzandingizni qo'shing",
+        "body": "Ismi, yoshi, jinsi va allergiyasi. Bir marta kiritasiz — keyingi bronlarda avtomatik tanlanadi."
       },
       {
-        "title": "Tasdiq telefoningizda",
-        "body": "Band qilish tasdiqlangach, barcha ma'lumot va yo'nalish ilovada saqlanadi."
+        "title": "Sana va vaqtni tanlang",
+        "body": "Kalendardan kunni, so'ng davomiylikni belgilang — 1 soatdan 12 soatgacha. Bo'sh oraliqlar darhol ko'rinadi."
+      },
+      {
+        "title": "Tafsilotlarni tekshiring",
+        "body": "Bog'cha, farzand, sana, davomiylik va narx bitta ekranda. Soatlik narx ham, umumiy summa ham ochiq."
+      },
+      {
+        "title": "To'lovni amalga oshiring",
+        "body": "Payme, Click yoki bank kartasi orqali. Balansni oldindan to'ldirib qo'ysangiz, keyingi bron bir bosishda."
+      },
+      {
+        "title": "Hammasi profilingizda",
+        "body": "Bronlar tarixi, farzandlaringiz, balans va cashback — barchasi bitta joyda saqlanadi."
       }
     ]
   },

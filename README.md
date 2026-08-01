@@ -113,13 +113,27 @@ Bu shart — sozlanadigan narsa emas.
 
 ## Ilova ekranlari
 
-Telefon ichidagi UI — **haqiqiy skrinshot emas**, DOM'da chizilgan mock
-(`src/components/ui/AppScreen.tsx`). Sababi: har qanday ekranda tiniq, 0 KB va
-ilova hali chiqmagan bo'lsa ham sayt to'liq ko'rinadi.
+`src/components/AppShowcase.tsx` — ilovaning **haqiqiy skrinshotlari**
+(`public/screens/01–07`), ota-ona ularni ko'radigan tartibda:
 
-Haqiqiy skrinshotlar tayyor bo'lganda: `1170×2532` da eksport qiling, `.webp` ga o'giring,
-`public/screens/` ga qo'ying va `AppScreen` o'rniga `<Image>` qo'ying. Telefon ramkasi,
-sticky scroll va butun animatsiya o'zgarishsiz qoladi.
+1. Ro'yxatdan o'tish → 2. Joylashuv → 3. Farzand qo'shish → 4. Sana va vaqt →
+5. Tafsilotlar → 6. To'lov → 7. Profil
+
+Desktopda telefon yon tomonda qotib turadi, matn panellari yonidan o'tadi va ekran
+almashadi. Mobilda esa bu **gorizontal karusel** — 7 ta telefon ustma-ust emas,
+yonma-yon, barmoq bilan suriladi (CSS scroll-snap, JS slider emas).
+
+Skrinshot almashtirish: `public/screens/` ichidagi faylni almashtiring va
+`src/i18n/dictionaries/*.json` dagi `showcase.panels` matnini yangilang (uchala tilda).
+Fayl nomlari `AppShowcase.tsx` ichidagi `shots` massivida.
+
+> ⚠️ **Shaxsiy ma'lumot — ishga tushirishdan oldin hal qiling.** Skrinshotlarning
+> ikkitasi haqiqiy hisobdan olingan, sayt esa ochiq:
+> - **07** (Sozlamalar) — haqiqiy ism, telefon raqami va hisob ID'si ko'rinib turibdi.
+> - **05** (Tafsilotlar) — haqiqiy bolaning surati va ismi bor.
+>
+> Ikkalasini test hisobi bilan qayta suratga oling yoki o'sha maydonlarni bulaniqlashtiring.
+> Bolaning surati — ota-onasining yozma roziligisiz chop etish mumkin bo'lmagan ma'lumot.
 
 ---
 
