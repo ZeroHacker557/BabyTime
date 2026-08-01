@@ -140,6 +140,19 @@
       }
     ]
   },
+  "gallery": {
+    "eyebrow": "Bir kun ichida",
+    "title": "Bolangiz kunini shunday o'tkazadi",
+    "body": "O'yin, mashg'ulot, musiqa va ochiq havo — yorug' va xavfsiz muhitda.",
+    "alts": [
+      "Bolalar stol atrofida rangli shakllar bilan o'ynamoqda",
+      "Tarbiyachi bolalarga kitob o'qib bermoqda",
+      "Bog'cha binosi va hovlidagi o'yin maydonchasi",
+      "Bola yog'och g'ishtchalardan minora qurmoqda",
+      "Bolalar musiqa mashg'ulotida",
+      "Yorug' va ozoda o'yin xonasi"
+    ]
+  },
   "testimonials": {
     "eyebrow": "Ota-onalar nima deydi",
     "title": "Kunini yengillashtirganlar",

@@ -256,4 +256,18 @@
   .bt-pin__ring {
     display: none;
   }
+
+  /* The photo strip stops drifting and becomes a plain scroller instead, so the
+     photos stay reachable rather than frozen mid-loop. The duplicate track is
+     only there to hide the loop seam, so it goes with the animation. */
+  .bt-gallery {
+    overflow-x: auto;
+  }
+  .bt-gallery__track {
+    animation: none !important;
+    transform: none !important;
+  }
+  .bt-gallery ul[aria-hidden='true'] {
+    display: none;
+  }
 }

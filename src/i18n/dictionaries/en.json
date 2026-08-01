@@ -140,6 +140,19 @@
       }
     ]
   },
+  "gallery": {
+    "eyebrow": "A day inside",
+    "title": "How your child spends the day",
+    "body": "Play, lessons, music and fresh air — in a bright, safe place.",
+    "alts": [
+      "Children playing with coloured shapes at a table",
+      "A teacher reading a book to children",
+      "A kindergarten building and its outdoor playground",
+      "A boy building a tower from wooden blocks",
+      "Children at a music lesson",
+      "A bright, tidy playroom"
+    ]
+  },
   "testimonials": {
     "eyebrow": "What parents say",
     "title": "People whose day got lighter",

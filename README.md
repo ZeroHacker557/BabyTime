@@ -123,6 +123,27 @@ sticky scroll va butun animatsiya o'zgarishsiz qoladi.
 
 ---
 
+## Rasmlar karuseli
+
+`src/components/Gallery.tsx` — 6 ta surat o'ngdan chapga uzluksiz suriladi
+(`public/gallery/01–06.jpg`). Sichqoncha ustiga kelganda to'xtaydi.
+
+Surat almashtirish: `public/gallery/` ichidagi faylni almashtiring va
+`src/i18n/dictionaries/*.json` dagi `gallery.alts` matnini yangilang (uchala tilda).
+
+> ⚠️ **Litsenziya — ishga tushirishdan oldin hal qiling.** Bu 6 ta surat stock/internetdan
+> olingan, Baby Time bog'chalarining surati emas. `01.jpg` fayli `stock_GettyImages-473032112`
+> nomi bilan kelgan — bu Getty Images mulki, litsenziyasiz tijoriy saytda chop etish
+> mualliflik huquqini buzish hisoblanadi.
+>
+> Yo oltitasiga ham litsenziya sotib oling, yo (afzali) haqiqiy hamkor bog'chalarda
+> suratga oling — ota-onalar va markazning yozma roziligi bilan.
+
+Sarlavha ataylab "bizning bog'chalarimiz" emas, "bolangiz kunini shunday o'tkazadi"
+deb yozilgan: bu suratlar kayfiyat uchun, aniq bir bog'cha haqidagi da'vo emas.
+
+---
+
 ## Qamrov xaritasi
 
 `src/components/CoverageMap.tsx` — Leaflet + CARTO Positron plitalari. API kaliti

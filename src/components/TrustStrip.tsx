@@ -37,23 +37,28 @@ export function TrustStrip({ t }: { t: Dictionary }) {
             WebkitMaskImage: 'linear-gradient(90deg, transparent, #000 12%, #000 88%, transparent)',
           }}
         >
-          {/* Duplicated once so the -50% translate loops seamlessly. */}
-          {[0, 1].map((copy) => (
-            <ul
-              key={copy}
-              className="flex shrink-0 animate-marquee items-center gap-14 pr-14"
-              aria-hidden={copy === 1}
-            >
-              {partners.map((name) => (
-                <li
-                  key={name}
-                  className="whitespace-nowrap font-display text-xl font-extrabold text-ink-200 transition-colors duration-300 hover:text-ink-400"
-                >
-                  {name}
-                </li>
-              ))}
-            </ul>
-          ))}
+          {/* Both copies ride ONE animated track. `-50%` is a share of the
+              animated element's own width, so the track has to hold exactly two
+              copies for a cycle to travel exactly one — animating each <ul>
+              separately moves it only half its width and the row visibly jumps. */}
+          <div className="flex shrink-0 animate-marquee">
+            {[0, 1].map((copy) => (
+              <ul
+                key={copy}
+                className="flex shrink-0 items-center gap-14 pr-14"
+                aria-hidden={copy === 1}
+              >
+                {partners.map((name) => (
+                  <li
+                    key={name}
+                    className="whitespace-nowrap font-display text-xl font-extrabold text-ink-200 transition-colors duration-300 hover:text-ink-400"
+                  >
+                    {name}
+                  </li>
+                ))}
+              </ul>
+            ))}
+          </div>
         </div>
       </Reveal>
     </section>

@@ -9,6 +9,7 @@ import { HowItWorks } from '@/components/HowItWorks';
 import { AppShowcase } from '@/components/AppShowcase';
 import { CoverageMap } from '@/components/CoverageMap';
 import { Safety } from '@/components/Safety';
+import { Gallery } from '@/components/Gallery';
 import { Testimonials } from '@/components/Testimonials';
 import { ForKindergartens } from '@/components/ForKindergartens';
 import { Faq } from '@/components/Faq';
@@ -34,6 +35,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
         <AppShowcase t={t} />
         <CoverageMap t={t} />
         <Safety t={t} />
+        <Gallery t={t} />
         <Testimonials t={t} />
         <ForKindergartens t={t} locale={loc} />
         <Faq t={t} />

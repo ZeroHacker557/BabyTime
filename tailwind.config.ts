@@ -73,6 +73,10 @@ const config: Config = {
         float: 'float 6s ease-in-out infinite',
         'float-slow': 'floatSlow 8s ease-in-out infinite',
         marquee: 'marquee 40s linear infinite',
+        // The photo strip is a much wider track than the partner row, so it needs
+        // its own duration. Named for what it drives, not "slow" — at 42s it is
+        // actually the faster of the two in pixels per second.
+        'marquee-photos': 'marquee 42s linear infinite',
       },
     },
   },
