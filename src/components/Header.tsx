@@ -131,7 +131,7 @@ export function Header({ t, locale }: Props) {
             </nav>
 
             <div className="shell shrink-0 space-y-3 border-t border-ink-200/70 py-5">
-              <LangSwitcher current={locale} label={t.footer.langLabel} />
+              <LangSwitcher current={locale} label={t.footer.langLabel} align="left" />
               <a
                 href={storeUrl}
                 target="_blank"

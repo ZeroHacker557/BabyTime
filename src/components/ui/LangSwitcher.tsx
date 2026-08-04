@@ -10,6 +10,16 @@ type Props = {
   current: Locale;
   label: string;
   inverted?: boolean;
+  /**
+   * Which side the dropdown hangs from. In the desktop toolbar the trigger sits
+   * at the right edge of the header, so the menu grows leftward off `right-0`.
+   * In the mobile sheet the trigger sits at the LEFT edge of a full-width block —
+   * anchoring `right-0` there put the menu almost entirely off-screen to the
+   * left, since a right edge pinned to an 85px-wide button leaves no room for a
+   * 176px-wide menu on that side. Pass `align="left"` there so it grows rightward
+   * instead, where the sheet actually has room.
+   */
+  align?: 'left' | 'right';
 };
 
 /** Swaps the first path segment, so the visitor stays on the section they were reading. */
@@ -19,7 +29,7 @@ function swapLocale(pathname: string, next: Locale) {
   return '/' + parts.join('/');
 }
 
-export function LangSwitcher({ current, label, inverted = false }: Props) {
+export function LangSwitcher({ current, label, inverted = false, align = 'right' }: Props) {
   const pathname = usePathname() || '/uz';
   const [open, setOpen] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
@@ -39,7 +49,11 @@ export function LangSwitcher({ current, label, inverted = false }: Props) {
   }, [open]);
 
   return (
-    <div ref={ref} className="relative">
+    // w-fit, not just "relative": in the mobile sheet this sits as a plain block
+    // child of a column-flex container, so without it the div stretches to the
+    // sheet's full width and the dropdown's `right-0` anchors to that far edge —
+    // floating well past the button instead of hanging under it.
+    <div ref={ref} className="relative w-fit">
       <button
         type="button"
         onClick={() => setOpen((v) => !v)}
@@ -58,7 +72,9 @@ export function LangSwitcher({ current, label, inverted = false }: Props) {
       {open && (
         <div
           role="menu"
-          className="absolute right-0 top-full z-50 mt-2 w-44 overflow-hidden rounded-2xl border border-ink-200/70 bg-white p-1.5 shadow-lift"
+          className={`absolute top-full z-50 mt-2 w-44 overflow-hidden rounded-2xl border border-ink-200/70 bg-white p-1.5 shadow-lift ${
+            align === 'left' ? 'left-0' : 'right-0'
+          }`}
         >
           {locales.map((loc) => (
             <Link

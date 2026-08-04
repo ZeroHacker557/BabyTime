@@ -136,7 +136,15 @@ export function Hero({ t }: { t: Dictionary }) {
                 alt="Baby Time mascot"
                 width={1122}
                 height={1402}
-                className="h-auto w-full drop-shadow-2xl"
+                className="hidden h-auto w-full drop-shadow-2xl lg:block"
+                priority
+              />
+              <Image
+                src="/mascot/hero-mobile.png"
+                alt="Baby Time mascot"
+                width={1122}
+                height={1402}
+                className="h-auto w-full drop-shadow-2xl lg:hidden"
                 priority
               />
             </div>
